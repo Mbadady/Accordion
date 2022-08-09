@@ -83,6 +83,9 @@ body{
 .number{
   color: #aaa;
 }
+.text{
+  cursor: pointer;
+}
 .accordion-paragraph{
   line-height: 1.4;
   padding: 1.4rem 0 0 0;
