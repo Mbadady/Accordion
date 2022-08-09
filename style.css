@@ -107,14 +107,14 @@ body{
 .component-active .arrow{
   stroke: #5ec576;
 }
-.component-active .arrow-down{
+.component-active .arrow-up{
 display: block;
 
 }
-.component-active .arrow-up{
+.component-active .arrow-down{
 display: none;
 }
-.arrow-down{
+.arrow-up{
   display: none;
 }
 .component{
