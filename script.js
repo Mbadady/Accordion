@@ -9,6 +9,7 @@ console.log(components);
 // Using Event Delegation and looping over all the components 
 components.forEach(component=>component.addEventListener("click", function(e){
     // console.log(component);
+    e.preventDefault()
     // console.log(arrowActive);
     component.classList.toggle("component-active")
 }))
